@@ -1,0 +1,140 @@
+{
+  "projects": [
+    {
+      "title": "My face",
+      "category": "Photo",
+      "description": "",
+      "imageUrl": "/uploads/1789186786826-531587746.jpg",
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "links": [
+    {
+      "platform": "tiktok",
+      "label": "tiktok",
+      "url": "https://www.tiktok.com/@yuzuplays02",
+      "id": 1
+    },
+    {
+      "platform": "facebook",
+      "label": "facebook",
+      "url": "https://www.facebook.com/joshua.vic.lebron.pascual/",
+      "id": 2
+    }
+  ],
+  "videos": [
+    {
+      "title": "APT Mashup",
+      "category": "Pop",
+      "description": "",
+      "videoUrl": "/uploads/1789210097697-264637653.mp4",
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 2,
+      "projectId": 1,
+      "name": "Yuzu",
+      "text": "love it",
+      "createdAt": "2026-09-12T10:03:50.754Z"
+    },
+    {
+      "id": 3,
+      "projectId": 1,
+      "name": "Ram",
+      "text": "now this is fire",
+      "createdAt": "2026-09-12T10:15:08.082Z"
+    }
+  ],
+  "reactions": [
+    {
+      "id": 1,
+      "projectId": 1,
+      "type": "like",
+      "visitorKey": "u:1",
+      "createdAt": "2026-09-12T10:10:56.898Z"
+    },
+    {
+      "id": 2,
+      "projectId": 1,
+      "type": "like",
+      "visitorKey": "u:3",
+      "createdAt": "2026-09-12T10:14:57.844Z"
+    }
+  ],
+  "visits": [
+    {
+      "id": 1,
+      "count": 4,
+      "updatedAt": "2026-09-12T09:54:28.435Z"
+    }
+  ],
+  "songs": [
+    {
+      "title": "Roxanne",
+      "artist": "",
+      "audioUrl": "/uploads/1789188280255-436591881.mp3",
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Yuzu",
+      "email": "admin@yuzu.local",
+      "passwordHash": "$2a$10$J/9D1etY/wvuMOtF6bIJJeWT6pVlrz5A7pvU0Tf8fLOEs33ciinWK",
+      "role": "admin",
+      "bio": "Artist and streamer behind Yuzu Creation - I paint, doodle and live-stream on Twitch and TikTok.",
+      "avatarUrl": "/uploads/1789202358648-87764913.jpg",
+      "createdAt": "2026-09-12T04:11:58.373Z"
+    },
+    {
+      "id": 2,
+      "name": "yuzu",
+      "email": "joshviclebron@gmail.com",
+      "passwordHash": "$2a$10$piEK0w3Xdjk4KMEOyyT7y.V2Vf7RKlpb1WTTRamI/hghHUlXXhdl.",
+      "role": "admin",
+      "bio": "",
+      "avatarUrl": "",
+      "createdAt": "2026-09-12T04:13:22.619Z",
+      "verified": true
+    },
+    {
+      "id": 3,
+      "name": "Ram",
+      "email": "ramlethal28@gmail.com",
+      "passwordHash": "$2a$10$hG5Aqstr5oU0M8Zbed18lOM2iXMxQsB714PyOHMGVJYRPBunlItuu",
+      "role": "user",
+      "bio": "",
+      "avatarUrl": "",
+      "verified": true,
+      "createdAt": "2026-09-12T10:11:45.907Z",
+      "verifyCode": null,
+      "verifyCodeExpires": null,
+      "verifyCodeSentAt": null,
+      "verifyAttempts": 0,
+      "banned": false,
+      "banUntil": null,
+      "banReason": null,
+      "bannedAt": null
+    }
+  ],
+  "feedback": [
+    {
+      "id": 1,
+      "kind": "appeal",
+      "name": "Ram",
+      "email": "ramlethal28@gmail.com",
+      "subject": "harassment",
+      "text": "please forgive me",
+      "userId": null,
+      "status": "resolved",
+      "createdAt": "2026-09-12T10:41:15.486Z",
+      "updatedAt": "2026-09-12T10:42:38.906Z"
+    }
+  ]
+}

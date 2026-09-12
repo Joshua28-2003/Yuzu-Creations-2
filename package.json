@@ -1,0 +1,31 @@
+{
+  "name": "yuzu-creation",
+  "version": "1.0.0",
+  "description": "Yuzu Creation - art portfolio + streaming hub. Node.js (MVC) + JSON Server (REST API) + vanilla JS frontend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "art",
+    "mvc",
+    "json-server",
+    "express",
+    "rest-api",
+    "authentication"
+  ],
+  "author": "Yuzu Creation",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "json-server": "^0.17.4",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.0",
+    "nodemailer": "^10.0.9"
+  }
+}

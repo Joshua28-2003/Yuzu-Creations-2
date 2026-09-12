@@ -1,0 +1,4 @@
+Yuzu Creation is running at http://localhost:4000
+  JSON Server CRUD     ->  /api/projects | /api/links | /api/songs
+  Auth API             ->  /api/auth/register | /api/auth/login | /api/auth/me
+  Public profile       ->  /api/profile
